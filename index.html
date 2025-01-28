@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fstyle.css">
+    <title>page Web</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Front page</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="video/video 3.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Created by Yeabsira</h2>
+            <p>web design sample</p>
+            <a href="mailto:abbytesfamichael@gmail.com ">contact Us</a>
+            </a>
+        </ul>       
+        </div>
+        <ul class="social">
+            <li><a href="#">
+                <a
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="images/instagram.png"
+                            alt="instagram link"
+                            class="icon-list-img"
+                        />
+                    </a>
+                    <a
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="images/twitter.png"
+                            alt="twitter link"
+                            class="icon-list-img"
+                        />
+                    </a>   
+                    <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="images/facebook.png"
+                        alt="Facebook link"
+                        class="icon-list-img"
+                    />
+                </a>  
+            </a></li>     
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#" target="_blank">Home</a></li>
+            <li><a href="Biography.html" target="_blank">Biography</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="https://dev.to/Yeabsira.G" target="_blank">Blog</a></li>
+            <li><a href="mailto:abbytesfamichael@gmail.com">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+        const menutoggle = document.querySelector('.toggle')
+        const showcase= document.querySelector('.showcase')
+
+        menutoggle.addEventListener('click', function() {
+            menutoggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>  
+</body>
+</html>
